@@ -65,7 +65,23 @@ void create()
 }
 
 
-
+void display()
+{
+	int i;
+	
+	if(n == 0)
+	{
+		printf("\nArray is empty\n");
+		return;
+	}
+	
+	printf("\nElements of the array are:\n");
+	for(i=0; i<n; i++)
+	{
+		printf("%d\t", arr[i]);
+	}
+	printf("\n");
+}
 
 void insert()
 {
