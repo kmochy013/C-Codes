@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+#include<stdlib.h> 
 
  int n, POS, ELEM;
  int a[100];
@@ -81,7 +81,7 @@ void Create(){
      printf("\n ~ ~ ~ Showing the MENU ~ ~ ~ \n");
      printf(" 1. Creating an array of N Elements\n");
      printf(" 2. Display of Array elements with suitable headings\n");
-     printf(" 3. Insertng an element(ELEM) at a give position(POS)\n");
+     printf(" 3. Insertng an element(ELEM) at a given position(POS)\n");
      printf(" 4. Deleting an element at a given valid position\n");
      printf(" 5. Exit\n");
      
